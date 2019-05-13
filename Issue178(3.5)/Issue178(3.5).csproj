@@ -1,14 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net35</TargetFramework>
+    <TargetFramework>net45</TargetFramework>
 
     <IsPackable>false</IsPackable>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Compile Include="..\Issue178\UnitTest1.cs" Link="UnitTest1.cs" />
-  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="nunit" Version="2.7.0" />

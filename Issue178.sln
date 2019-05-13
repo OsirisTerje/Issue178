@@ -3,9 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Issue178", "Issue178\Issue178.csproj", "{7A945BE7-39C5-410D-BAC3-9421E71B75CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Issue178", "Issue178\Issue178.csproj", "{7A945BE7-39C5-410D-BAC3-9421E71B75CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Issue178(3.5)", "Issue178(3.5)\Issue178(3.5).csproj", "{7BF57FF0-2B51-4B28-AE66-C6BC589ADEEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Issue178(3.5)", "Issue178(3.5)\Issue178(3.5).csproj", "{7BF57FF0-2B51-4B28-AE66-C6BC589ADEEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A52F842E-C0AA-4150-A7F8-55E6FED69B20}"
+	ProjectSection(SolutionItems) = preProject
+		Simple.runsettings = Simple.runsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Issue178NUnitTrad", "Issue178NUnitTrad\Issue178NUnitTrad.csproj", "{930F3A47-1ADC-4D51-83BC-8E37F41C9F4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +28,10 @@ Global
 		{7BF57FF0-2B51-4B28-AE66-C6BC589ADEEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BF57FF0-2B51-4B28-AE66-C6BC589ADEEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BF57FF0-2B51-4B28-AE66-C6BC589ADEEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{930F3A47-1ADC-4D51-83BC-8E37F41C9F4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{930F3A47-1ADC-4D51-83BC-8E37F41C9F4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{930F3A47-1ADC-4D51-83BC-8E37F41C9F4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{930F3A47-1ADC-4D51-83BC-8E37F41C9F4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
